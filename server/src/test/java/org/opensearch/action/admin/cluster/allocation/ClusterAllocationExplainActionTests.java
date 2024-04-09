@@ -57,7 +57,7 @@ import java.util.Locale;
 import static org.opensearch.action.admin.cluster.allocation.TransportClusterAllocationExplainAction.findShardToExplain;
 
 /**
- * Tests for the {@link TransportClusterAllocationExplainAction} class.
+ * Tests for the {@link TransportClusterAllocationExplainAction} class..
  */
 public class ClusterAllocationExplainActionTests extends OpenSearchTestCase {
 
