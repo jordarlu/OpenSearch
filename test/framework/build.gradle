@@ -59,7 +59,7 @@ compileJava.options.compilerArgs -= '-Xlint:unchecked'
 compileJava.options.compilerArgs += ['-processor', 'org.apache.logging.log4j.core.config.plugins.processor.PluginProcessor']
 compileTestJava.options.compilerArgs -= '-Xlint:rawtypes'
 
-// the main files are actually test files, so use the appropriate forbidden api sigs
+// the main files are actually test files, so use the appropriate forbidden api sigs.
 tasks.named('forbiddenApisMain').configure {
   replaceSignatureFiles 'jdk-signatures', 'opensearch-all-signatures', 'opensearch-test-signatures'
 }
